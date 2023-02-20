@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 95vh;
+    line-height: 1.5;
+}
+
+/* mainsection */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 45rem;
+    text-align: left;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2rem;
+}
+
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2rem;
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2rem;
+}
+
+
+.headings {
+    color: hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+}
+
+.paras {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+/* buttons */
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(234, 234, 234);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+
+
+    main {
+        display: block;
+        max-width: 25rem;
+    }
+}
